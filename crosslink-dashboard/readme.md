@@ -1,18 +1,23 @@
 #Readme
 Author credits: Konstantyn T from the Client team gracefully developed this extension.
+
 ###Features
   - Create crosslinked dashboards by clicking on one dashlet and having it drive another dashlet
   - Supports multiple widgets
+
 ###Changelog
   - May 21, 2015: 0.2 - Support multiple widgets in same dashboard
   - May 20, 2015: 0.1 - First release
+
 ###Installation
 Place `dashboardHyperlinkHandlerUpdateDashboardParams.js` into:    
 > <js-install>/jasperserver-pro/scripts 
 >
 > <js-install>/jasperserver-pro/optimized-scripts
+
 ###Usage
 You will need to create a Dashboard hyperlink under the heading of "Manually Created Filters" then wire each parameter to be upated by that filter
+
 #### For Text Elements 
 ```
 <textField hyperlinkType="UpdateDashboardParams">
@@ -24,6 +29,7 @@ You will need to create a Dashboard hyperlink under the heading of "Manually Cre
 </textField>
 ```
 Hyperlink type must be *UpdateDashboardParams* and then you pass the name of the receiving parameter, in this case parStoreId
+
 ### For Charts
 ```
 <hc:series name="Measure1">
@@ -33,6 +39,7 @@ Hyperlink type must be *UpdateDashboardParams* and then you pass the name of the
 	</hc:contributor>
 </hc:series>
 ```
+
 ###TODO
   - Can’t handle hyperlinks in preview mode
   - Add better support for custom hyperlinks in Jaspersoft Studio
