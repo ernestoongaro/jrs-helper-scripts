@@ -1,5 +1,5 @@
 #Readme
-Author credits: Konstantyn T from the Client team gracefully developed this extension.
+Author credits: Konstia from the Client team gracefully developed this extension.
 
 ###Features
   - Create crosslinked dashboards by clicking on one dashlet and having it drive another dashlet
