@@ -40,9 +40,13 @@ Hyperlink type must be *UpdateDashboardParams* and then you pass the name of the
 </hc:series>
 ```
 
+### In visualize.js 
+See this example http://jsfiddle.net/ernestoo/n0r48c2p/1/
+
 ###TODO
   - Can’t handle hyperlinks in preview mode
   - Add better support for custom hyperlinks in Jaspersoft Studio
+  - visualize.js sample only works with one dashlet link at a time, forgets others
   - Not included by default :)
 
 
